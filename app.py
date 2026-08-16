@@ -30,5 +30,5 @@ def home():
     )
 
 
-if _name_ == '_main_':
+if __name__== '__main__':
     app.run(debug=False, host='0.0.0.0') # debug False kar
